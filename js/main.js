@@ -4,7 +4,7 @@
 //Dunque dovrò inserirla all'interno dell'action hover assieme alla funzione hide
 
 
-$('a').hover(
+$('a.close').hover(
     function() {
     $('.hamburger-menu').show('slow');
   },
