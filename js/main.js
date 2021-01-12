@@ -3,7 +3,7 @@
 // Ma solo al click sull'icona dell'hamburger menu
 //La chiusura dello stesso, invece, applicando la funzione
 // $('.hamburger-menu').hide('slow');
-// da inserire sempre nell'action click
+// da inserire sempre nell'action click che stavolta agisca sulla fas fa-times
 //Dunque dovrò inserirla all'interno di una action click. Farò lo stesso con la action hide
 
 $('.header-right > a').click(
