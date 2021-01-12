@@ -1,6 +1,9 @@
 //Devo applicare la funzione show alla classe hamburger-menu
 // $('.hamburger-menu').show();
-// Ma solo al passaggio del mouse
+// Ma solo al click sull'icona dell'hamburger menu
+//La chiusura dello stesso, invece, applicando la funzione
+// $('.hamburger-menu').hide('slow');
+// da inserire sempre nell'action click
 //Dunque dovrò inserirla all'interno di una action click. Farò lo stesso con la action hide
 
 $('.header-right > a').click(
