@@ -27,6 +27,24 @@ $('.header-left > img').hover(
     $(this).css('height','40px');
   });
 
+// Change Header-right  List Item Color on over
+$('.header-right ul li a:not(.cta)').hover(
+  function() {
+  $(this).css('color','#001533');
+  },
+  function() {
+  $(this).css('color','#565a5c');
+});
+
+// Change Header-right  Button Background-Color on over
+$('.header-right li:last-child a').hover(
+  function() {
+  $(this).css('background-color','#00e165');
+  },
+  function() {
+  $(this).css('background-color','#e78d5c');
+});
+
 // Change Hamburger-menu  Color on over
 $('.header-right > a').hover(
   function() {
