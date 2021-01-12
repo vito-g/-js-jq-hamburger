@@ -1,10 +1,10 @@
 //Devo applicare la funzione show alla classe hamburger-menu
 // $('.hamburger-menu').show();
 // Ma solo al click sull'icona dell'hamburger menu
-//La chiusura dello stesso, invece, applicando la funzione
+//La chiusura dello stesso, invece, applicando la funzione hide
 // $('.hamburger-menu').hide('slow');
 // da inserire sempre nell'action click che stavolta agisca sulla fas fa-times
-//Dunque dovrò inserirla all'interno di una action click. Farò lo stesso con la action hide
+
 
 $('.header-right > a').click(
     function() {
