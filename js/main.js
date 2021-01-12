@@ -15,3 +15,7 @@ $('.header-right > a').click(
     function() {
     $('.hamburger-menu').show('slow');
   });
+$('a.close').click(
+    function() {
+    $('.hamburger-menu').hide('slow');
+  });
